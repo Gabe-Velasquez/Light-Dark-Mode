@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
     <!-- Navigation -->
     <nav id="nav">
         <a href="home">HOME</a>
@@ -44,12 +55,32 @@
     <!-- Projects Section -->
     <section id="projects">
         <h1>Buttons</h1>
+        <div class="buttons">
+            <button class="primary">Primary</button>
+            <button class="secondary">Secondary</button>
+            <button class="primary" disabled>Disabled</button>
+            <button class="outline">Outline</button>
+            <button class="secondary outline">Alt Outline</button>
+            <button class="outline" disabled>Disabled</button>
+        </div>
+        <div class="text-box" id="text-box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, laudantium placeat? Tempora nesciunt officiis at! Illum reprehenderit optio temporibus eos, itaque asperiores. Voluptatum minus, magni ab eaque cupiditate sint enim?</p>
+        </div>
     </section>
     <!-- Contact Section -->
     <section id="contact">
-
+        <div class="social-icons">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            
+        </div>
     </section>
     <!-- Script -->
+    <script src="https://kit.fontawesome.com/9cdc820f3d.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
